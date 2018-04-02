@@ -334,7 +334,7 @@ header a:hover {
     width: 68%;
 }
 
-.register .sub-main input[type="submit"] {
+.register .sub-main input[type="button"] {
     color: white;
     background: darkred;
     border: none;
@@ -346,7 +346,7 @@ header a:hover {
     text-transform: uppercase;
 }
 
-.register .sub-main input[type="submit"]:hover {
+.register .sub-main input[type="button"]:hover {
     background: #d9edf7;
     color: black;
     transition: 0.2s;
