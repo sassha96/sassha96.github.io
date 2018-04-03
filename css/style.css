@@ -28,6 +28,8 @@
         display: block;
         text-align: center;
         letter-spacing: 3px;
+        padding-right: 50px;
+
     }
     
     header a {
@@ -38,7 +40,6 @@
     
     header p {
         float: left;
-        padding-right: 50px;
     }
     
     header a:not(:last-child) {
