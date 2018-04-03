@@ -74,8 +74,8 @@ header a:hover {
     width: 62%;
     margin: 0 auto;
     border-radius: 20px;
-    background: gainsboro;
-    opacity: 0.95;
+    background: white;
+    opacity: 0.9;
 }
 
 .home .container h1 {
