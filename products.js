@@ -1,9 +1,9 @@
-var clicks = 14;
+var clicks = 15;
 
-document.getElementById("clicks").innerHTML = clicks;
+let likeCounter = document.getElementById("clicks").innerHTML = clicks;
 
-$('.like-counter').click(function () {
+likeCounter.addEventListener('click', () => {
     clicks += 1;
-    document.getElementById("clicks").innerHTML = clicks;
-    $('.like-counter').addClass("liked");
-});
+    document.getElementById("clicks").innerHTML = this.clicks;
+    like - counter.addClass('liked');
+})

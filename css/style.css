@@ -24,7 +24,7 @@
     }
     
     header .nav {
-        float: left;
+        float: right;
         display: block;
         text-align: center;
         letter-spacing: 3px;
@@ -389,3 +389,5 @@
     .liked {
         font-weight: bold;
     }
+
+    

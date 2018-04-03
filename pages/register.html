@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="icon" href="../img/web-ico.png">
-    <script src="main.js"></script>
+
 </head>
 
 <body>
@@ -32,14 +32,14 @@
             <h2 class="sub-head">Sign Up</h2>
             <h4>Create an account. It's free!</h4>
             <div class="sub-main">
-                <form action="#" method="post">
-                    <input placeholder="First Name" name="firstName" class="field" type="text">
-                    <input placeholder="Last Name" class="field" type="text">
-                    <input placeholder="Phone Number" class="field" type="text">
-                    <input placeholder="Email" name="mail" class="field" type="text">
-                    <input placeholder="Password" name="Password" class="field" type="password">
-                    <input placeholder="Confirm Password" name="Password" class="field" type="password">
-                    <input type="submit" name="button1" onclick="test.this.form" value="sign up">
+                <form name="myForm" onsubmit="return validateForm()" method="post">
+                    <input name="fname"  type="text">
+                    <input placeholder="Last Name" name="fname" class="field" type="text">
+                    <input placeholder="Phone Number" name="fname" class="field" type="text">
+                    <input placeholder="Email" name="fname" class="field" type="text">
+                    <input placeholder="Password" name="fname" class="field" type="password">
+                    <input placeholder="Confirm Password" name="fname" class="field" type="password">
+                    <input type="submit" value="Submit">
                 </form>
             </div>
             <div class="clear"></div>
@@ -49,6 +49,7 @@
     <footer>
         <p>© 2018 «BookStore» All rights reserved</p>
     </footer>
+    <script src="../main.js"></script>
 </body>
 
 </html>
