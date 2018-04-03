@@ -55,6 +55,7 @@ header a:hover {
 .home .container {
     width: 66%;
     background-color: whitesmoke;
+    margin-top: 20px;
     margin-left: 17%;
     margin-right: 17%;
     opacity: 0.9;
@@ -69,8 +70,9 @@ header a:hover {
 
 .home>h3 {
     text-align: center;
-    padding: 20px;
-    margin: 0px 225px 20px 225px;
+    padding: 20px 2% 20px 2%;
+    width: 62%;
+    margin: 0 auto;
     border-radius: 20px;
     background: gainsboro;
     opacity: 0.95;
