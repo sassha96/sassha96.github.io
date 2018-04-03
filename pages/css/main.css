@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
 }
-.nav{
+
+.nav {
   padding-right: 0px;
 }
+
 a:hover {
   text-decoration: none;
   color: brown;
@@ -143,17 +145,14 @@ iframe {
   opacity: 0.8;
 }
 
-
-/*==================================================================
-[ Form ]*/
-
 .login100-form {
   width: 100%;
   position: relative;
 }
 
 .login100-form-title {
-  font-size: 30px;
+  font-size: 38px;
+  font-weight: bold;
   color: #fff;
   line-height: 1.2;
   text-align: center;
