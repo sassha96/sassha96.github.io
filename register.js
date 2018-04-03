@@ -6,3 +6,16 @@
         return false;
     }
 } */
+
+function required() {
+    var empt = document.form1.fname.value;
+    if (empt === "") {
+        alert("Field 'First name' is clear! Enter a value!");
+        empt = '';
+        return false;
+    }
+    else {
+        alert('Code has accepted : you can try another');
+        return true;
+    }
+}
