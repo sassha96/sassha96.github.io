@@ -9,7 +9,7 @@
     }
     
     section {
-        background: url("../img/bg-photo.jpg");
+        background: url("../img/bg-photo.jpg") fixed;
         background-size: 100%;
         padding: 80px 0px 80px 0px;
     }
