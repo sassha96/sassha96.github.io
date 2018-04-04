@@ -182,6 +182,9 @@ header p a {
 }
 
 .products .container .product-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 80%;
     height: 310px;
     background-color: gainsboro;
@@ -212,21 +215,26 @@ header p a {
 .products .container .product-box .text-box {
     width: 63%;
     float: left;
-    padding-right: 10px;
 }
 
 .products .container .product-box .divka {
-    margin-top: 45px;
-    float: right;
     padding: 5px;
-    margin-right: 7px;
-    background-color: beige;
+    background-color: gray;
     border-radius: 5px;
+    align-self: flex-end;
+    
+    
 }
 
 .products .container .product-box .divka:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.plain-text {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
 }
 
 .about {
