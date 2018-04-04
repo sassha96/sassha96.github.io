@@ -16,16 +16,6 @@ input {
   border: none;
 }
 
-input[type="number"] {
-  -moz-appearance: textfield;
-  appearance: none;
-  -webkit-appearance: none;
-}
-
-input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-}
-
 textarea {
   outline: none;
   border: none;
@@ -35,36 +25,16 @@ textarea:focus, input:focus {
   border-color: transparent !important;
 }
 
-input::-webkit-input-placeholder {
-  color: #1b3815;
-}
-
-input:-moz-placeholder {
-  color: #1b3815;
-}
-
-input::-moz-placeholder {
-  color: #1b3815;
-}
-
-input:-ms-input-placeholder {
-  color: #1b3815;
-}
-
-textarea::-webkit-input-placeholder {
-  color: #1b3815;
-}
-
-textarea:-moz-placeholder {
-  color: #1b3815;
-}
-
 textarea::-moz-placeholder {
   color: #1b3815;
 }
 
 textarea:-ms-input-placeholder {
   color: #1b3815;
+}
+
+.login {
+  padding-top: 29px;
 }
 
 
@@ -165,7 +135,6 @@ iframe {
   padding-top: 50px;
   padding-bottom: 39px;
 }
-
 
 .wrap-input100 {
   width: 100%;

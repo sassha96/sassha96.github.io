@@ -9,47 +9,56 @@ body {
     min-width: 1166px;
 }
 
+header {
+    background-color: brown;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.95;
+    padding: 10px 12px;
+    min-width: 1166px;
+    box-sizing: border-box;
+}
+
 section {
     background: url("../img/bg-photo.jpg") fixed;
     background-size: 100%;
     padding: 80px 0px 80px 0px;
 }
 
-header {
-    background-color: brown;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    opacity: 0.8;
-    padding: 14px 16px;
-    min-width: 1166px;
+header .nav {
+    letter-spacing: 3px;
+    float: right;
+    padding-top: 7px;
 }
 
-header .nav {
-    float: right;
-    display: block;
-    text-align: center;
-    letter-spacing: 3px;
-    padding-right: 50px;
+header .nav a {
+    font-size: 24px;
 }
 
 header a {
-    text-decoration: none;
-    font-size: 20px;
     color: #fff;
-}
-
-header p {
-    float: left;
-}
-
-header a:not(:last-child) {
-    padding-right: 20px;
+    text-decoration: none;
+    font-size: 23px;
+    padding-right: 25px;
 }
 
 header a:hover {
     color: orangered;
     transition: color 0.5s;
+}
+
+header p {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+header p a {
+    color: orange;
+    padding-left: 20px;
+    letter-spacing: 5px;
 }
 
 .home .container {
@@ -62,20 +71,19 @@ header a:hover {
     border-radius: 25px;
 }
 
-.home>h1 {
-    text-align: center;
-    padding-bottom: 50px;
-    font-size: 30px;
-}
-
-.home>h3 {
+.home-pretext {
     text-align: center;
     padding: 20px 2% 20px 2%;
     width: 62%;
-    margin: 0 auto;
+    margin: 20px auto 5px auto;
     border-radius: 20px;
     background: white;
-    opacity: 0.9;
+    opacity: 0.8;
+}
+
+.home-pretext h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
 }
 
 .home .container h1 {
@@ -138,7 +146,7 @@ header a:hover {
 }
 
 .products {
-    padding-top: 75px;
+    padding-top: 95px;
     padding-bottom: 15px;
 }
 
@@ -344,7 +352,7 @@ header a:hover {
     font-size: 38px;
     color: white;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
     letter-spacing: 3px;
 }
 
