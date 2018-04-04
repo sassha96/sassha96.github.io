@@ -3,6 +3,10 @@
     max-width: 2000px;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     height: auto;
@@ -64,9 +68,8 @@ header p a {
 .home .container {
     width: 66%;
     background-color: whitesmoke;
-    margin-top: 20px;
-    margin-left: 17%;
-    margin-right: 17%;
+    margin: 20px 17%;
+    padding-bottom: 10px;
     opacity: 0.9;
     border-radius: 25px;
 }
@@ -129,9 +132,12 @@ header p a {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding-bottom: 75px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0px;
+    padding-bottom: 20px;
+}
+
+.novelties-books a {
+    margin-bottom: 50px;
 }
 
 .book h4 {
@@ -400,12 +406,20 @@ header p a {
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
+    text-align: center;
+    padding: 15px;
     background-color: brown;
     color: white;
+    opacity: 1.6;
+}
+
+.noveleties {
+    background-color: gainsboro;
+    width: 90%;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 15px;
+    opacity: 0.9;
 }
 
 .first {
