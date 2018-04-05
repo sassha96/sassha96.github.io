@@ -225,8 +225,11 @@ header p a {
 }
 
 .products .container .product-box .divka:hover {
-    text-decoration: underline;
     cursor: pointer;
+}
+
+.divka:active {
+    color: firebrick;
 }
 
 .plain-text {
