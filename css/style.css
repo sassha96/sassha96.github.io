@@ -70,7 +70,8 @@ header p {
 header p a {
     color: orange;
     padding-left: 20px;
-    letter-spacing: 5px;
+    font-size: 20px;
+    letter-spacing: 3px;
 }
 
 .home .container {
